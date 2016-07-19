@@ -10,6 +10,7 @@ $(document).ready(function(){
             switch (index){
                 case 1:
                     move('.section1 h1').scale(1.5).end();
+                    move('.section1 img').scale(1.2).end();
                     move('.section1 p').set('margin-top','5%').end();
                     break;
                 case 2:
@@ -41,6 +42,7 @@ $(document).ready(function(){
             switch (index){
                 case 1:
                     move('.section1 h1').scale(1).end();
+                    move('.section1 img').scale(1).end();
                     move('.section1 p').set('margin-top','800px').end();
                     break;
                 case 2:
